@@ -1,7 +1,6 @@
 # Gerador de Números da Sorte
 
-Este projeto é um gerador de números aleatórios que permite ao usuário sortear um conjunto de números entre um intervalo definido. O usuário também pode escolher se os números sorteados podem se repetir ou não.
-
+Este projeto é um gerador de números aleatórios que permite ao usuário sortear um conjunto de números entre um intervalo definido.
 ## Funcionalidades
 
 - **Sorteio de Números**: Gera um conjunto de números aleatórios entre os valores definidos pelo usuário.
