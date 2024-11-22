@@ -1,0 +1,53 @@
+:root{
+    --content-primary:#FFFFFF;
+    --content-secondary:#C7C9CC;
+    --content-tertiary:#D9D9D9;
+    --content-brand:#C58DE7;
+    --color-inverse:#030203;
+    --background-primary:#020202;
+    --background-secondary:#111012;
+    --background-tertiary:#24222E;
+    --background-brand:#C58DE7;
+    --background-gray:#3D3D3D;
+    --accent-pink:#D586E0;
+    --accent-blue:#91A1FA;
+    --accent-green:#77C0A;
+    --accent-lime:#D1DC97;
+    --accent-red:#E9A9B3;
+    --gradient-border: linear-gradient(#77C0AF 0%, #D1DC97 14.84%, #E9A9B3 32.15%, #D586E0 65.79%, #91A1FA 84.58%);
+    --gradient-background: linear-gradient(#D586E0 0%, #91A1FA 98.93%);
+    --gradient-content: linear-gradient(#C7C9CC 0%, #3D3D3D 100%);
+
+    --roboto:"Roboto Flex", sans-serif;
+    --sora: "Sora", serif;
+    --robotoMono:"Roboto Mono", serif;
+    --robotoFlex:"Roboto Flex", serif;
+
+    --displayLarge:2.25rem/130% var(--sora);
+    --displayMedium: 1.25rem/130% var(--sora);
+    --displaySmall:bold 1rem/130% var(--sora);
+
+    --overline: bold 0.5rem/150% var(--robotoMono);
+
+    --paragraphLarge:0.5rem/150% var(--robotoFlex);
+    --paragraphMedium:0.43rem/150% var(--robotoFlex);
+    --paragraphSmall:0.375rem/150% var(--robotoFlex);
+    --labelMedium: bold 0.0625rem/150% var(--robotoFlex);
+    --labelSmall: bold 1rem/150% var(--robotoFlex);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+
+
+
+.sumiu{
+ display: none;
+}

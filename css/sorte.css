@@ -1,0 +1,33 @@
+.numeroSorte{
+    text-align: center;
+    & h3{
+        
+        font-family: var(--robotoFlex);
+        font-weight: bold;
+        color: var(--content-primary);
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    & p{
+        font-family: var(--robotoMono);
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 150%;
+        color: var(--content-secondary);
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+    & small{
+        font-family: var(--robotoMono);
+        font-weight: bold;
+        line-height: 150%;
+        font-size: 3rem;
+        color: var(--content-brand);
+        margin-right: 40px;
+    }
+
+    .button{
+        margin-top: 40px;
+    }
+}

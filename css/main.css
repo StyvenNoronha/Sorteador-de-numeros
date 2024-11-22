@@ -1,0 +1,144 @@
+#app {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  height: 100vh;
+  overflow: hidden;
+
+  padding: 150px 132px 153px 132px;
+
+  & aside {
+    overflow: auto;
+    overflow: hidden;
+    & .aside_container {
+      & #title {
+        text-transform: uppercase;
+        font-family: var(--robotoMono);
+        background: var(--gradient-content);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+      & h1 {
+        text-transform: uppercase;
+        font-family: var(--sora);
+        color: var(--content-primary);
+        font-size: 4.5rem;
+        line-height: 130%;
+        padding-bottom: 38px;
+      }
+
+      & ul {
+        padding-right: 121px;
+        & li {
+          & span {
+            font-family: var(--robotoFlex);
+            font-size: 0.875rem;
+            color: var(--content-brand);
+            line-height: 150%;
+          }
+
+          padding-bottom: 2rem;
+
+          & p {
+            margin-left: 26px;
+            font-family: var(--robotoFlex);
+            font-size: 0.75rem;
+            line-height: 150%;
+            color: var(--content-secondary);
+          }
+        }
+      }
+    }
+  }
+
+  & main {
+    overflow: auto;
+  }
+  & .main_container {
+    overflow: hidden;
+    & form {
+      padding: 32px 0 32px 108px;
+
+      & h1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: var(--robotoFlex);
+        font-size: 1.25rem;
+        line-height: 150%;
+        color: var(--content-primary);
+      }
+      & p {
+        font-size: 1rem;
+        font-family: var(--robotoFlex);
+        line-height: 150%;
+        color: var(--content-secondary);
+        padding-bottom: 40px;
+      }
+      & .forme {
+        display: flex;
+        gap: 12px;   
+        & label {
+          text-transform: uppercase;
+          font-family: var(--robotoFlex);
+          font-size: 1rem;
+          color: var(--content-secondary);
+          
+
+          
+        }
+        & .formText {
+    
+          appearance: none;
+          outline: none;
+          border: none;
+          background-color: #111012;
+          border-radius: 5px;
+          height: 57px;
+          width: 87px;
+          color: #fff;
+          font-family: var(--sora);
+          font-size: 2rem;
+          font-weight: bold;
+          line-height: 150%;
+          text-align: center;
+          border: 2px solid;
+        }
+        
+      }
+
+    }
+  }
+}
+
+
+
+
+.flex{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.button{
+  margin-top: 20px;
+  padding-right: 5px;
+  display: inline-block;
+    height: 56px;
+    width: 482px;
+    font-size: 16px;
+    color: #fff; /* Texto branco */
+    background-color: var(--background-tertiary); /* Fundo preto */
+    border: 3px solid transparent; /* Borda transparente para exibir o gradiente */
+    border-radius: 5px; /* Arredondar bordas, se necessário */
+    background: linear-gradient(#000, #000) padding-box, /* Fundo preto */
+}
+.button:hover{
+  background: linear-gradient(#24222E, #24222E) padding-box, /* Fundo preto permanece */
+  linear-gradient(#91A1FA 0%, #D586E0 50%, #77C0AF 100%) border-box; /* Gradiente da borda muda no hover */
+color: #fff; /* O texto permanece branco */
+}

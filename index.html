@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorteador</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="logo" />
+    </header>
+    <div id="app">
+      <aside>
+        <div class="aside_container">
+          <p id="title">online - gratuito</p>
+          <h1>sorteador de números</h1>
+          <ul>
+            <li>
+              <img src="img/Frame.png" />
+              <span> Como funciona o sorteador de números? </span>
+              <p>
+                O sorteador utiliza um algoritmo de geração aleatória para criar
+                números dentro do intervalo especificado pelo usuário.
+              </p>
+            </li>
+            <li>
+              <img src="img/Frame.png" />
+              <span> Posso escolher o intervalo dos números? </span>
+              <p>
+                Sim, você pode definir os valores mínimo e máximo para o
+                intervalo dos números sorteados.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <div class="main_container">
+
+          <form >
+            <h1>Quero sortear:</h1>
+            <p>
+              defina o intervalo e a quantidade de números, clique em "Sortear"
+              e veja os resultados na tela. É rápido e fácil!
+            </p>
+            <div>
+              <div class="forme">
+                <div class="flex">
+                  <label for="luckyNumber">NÚMEROS</label>
+                  <input
+                    class="formText"
+                    type="text"
+                    id="luckyNumber"
+                    name="luckyNumber"
+                  />
+                </div>
+
+                <div class="flex">
+                  <label for="numberOne">DE</label>
+                  <input
+                    class="formText"
+                    type="text"
+                    id="numberOne"
+                    name="numberOne"
+                  />
+                </div>
+
+                <div class="flex">
+                  <label for="numberTwo">ATÉ</label>
+                  <input
+                    class="formText"
+                    type="text"
+                    id="numberTwo"
+                    name="numberTwo"
+                  />
+                </div>
+              </div>
+              <!--
+              <div class="switch-container sumiu">
+                <label class="switch">
+                  <input type="checkbox" id="repeatNumber" />
+                  <span class="slider"></span>
+                </label>
+                <span id="switchText">Não repetir número</span>
+              </div>
+              -->
+              
+              <button class="button" id="button" type="submit">SORTEAR</button>
+            </div>
+          </form>
+
+
+          <form class="numeroSorte sumiu">
+            <h3>Resultado do sorteio</h3>
+              <p>Resultado</p>
+              <small id="NumberSorte"></small>
+              <br>
+              <button class="button" id="buttonn" type="submit">Sortear novamente</button>
+          </form>
+
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
+
+<!--
+
+-->
